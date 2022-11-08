@@ -1,2 +1,2 @@
 # simon-html
-Simon HTML only
+HTML only version of Simon
