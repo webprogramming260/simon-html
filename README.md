@@ -6,7 +6,7 @@ Because we are not using any CSS for styling we are limited on how visually plea
 
 The application has a login (home), game play, high scores, and about page. Each page contains a header that provides navigation between the pages, and a footer that references the source repository.
 
-You can view this application running here: [Example Simon HTML](https://webprogramming260.github.io/simon-html)
+You can view this application running here: [Example Simon HTML](https://demo.cs260.click/simon-html)
 
 ## Study this code
 
@@ -19,14 +19,19 @@ First, get familiar with what this code teaches.
 
 ## Make your own version
 
-- In your GitHub Pages repository create a subdirectory named `simon-html`.
+- Create a new GitHub repository named `simon-html`.
+- Clone the repository to your development environment.
 - In the `simon-html` directory create your own version of the project. Refer to the example class project repository if you get stuck.
+- Set the footer link to point to your code repository. (e.g. https://github.com/yourname/simon-html)
 - Periodically commit and push your code to your repository as you hit different milestones. (4 commits are required for full credit.)
-- Change the footer link to point to your code repository. (e.g. https://github.com/yourname/yourname.github.io)
-- Update your GitHub Pages repository README.md to record and reflect on what you learned.
-- When you have completed your version. Do a final push of your code.
-- Make sure your project is visible through your repository GitHub Pages URL.
-- Submit the GitHub Pages URL (e.g. https://yourname.github.io/simon-html) of your project for grading using the Canvas assignment page.
+- Periodically deploy to your production environment using a copy of the `deploy.sh` script found in the example class project. Take some time to understand how it works.
+  ```
+  ./deploy.sh -k <yourpemkey> -h <yourdomain> -a simon-html
+  ```
+- Update your `simon-html` repository README.md to record and reflect on what you learned.
+- When you have completed your version. Do a final push of your code and deploy to your production environment using the `deploy.sh` script.
+- Make sure your project is visible from your production environment.
+- Submit the URL to your production environment (e.g. https://yourdomain/simon-html) for grading using the Canvas assignment page.
 
 ## Grading Rubric
 
