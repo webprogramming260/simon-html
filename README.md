@@ -38,4 +38,4 @@ First, get familiar with what this code teaches.
 - 40% - Multiple HTML pages linked with anchor elements
 - 40% - Significant use of different HTML elements
 - 10% - At least four Git commits for the project (Initial, milestone, ..., milestone, final)
-- 10% - Notes in your GitHub Pages README.md about what you have learned
+- 10% - Notes in your GitHub repository README.md about what you have learned
