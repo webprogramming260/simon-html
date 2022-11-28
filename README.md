@@ -24,10 +24,11 @@ First, get familiar with what this code teaches.
 - In the `simon-html` directory create your own version of the project. Refer to the example class project repository if you get stuck.
 - Set the footer link to point to your code repository. (e.g. https://github.com/yourname/simon-html)
 - Periodically commit and push your code to your repository as you hit different milestones. (4 commits are required for full credit.)
-- Periodically deploy to your production environment using a copy of the `deploy.sh` script found in the example class project. ⚠ Make sure you run this from the same directory the script is located in. Take some time to understand how the script works. The script does three things. Deletes any previous deployment for simon-html, copies up all of the files found in the project directory, and makes sure Caddy is hosting the files under the `simon-html` subdomain of your domain.
+- Periodically deploy to your production environment using a copy of the `deploy.sh` script found in the example class project. Take some time to understand how the script works. The script does three things. Deletes any previous deployment for simon-html, copies up all of the files found in the project directory, and makes sure Caddy is hosting the files under the `simon-html` subdomain of your domain.
   ```
   ./deploy.sh -k <yourpemkey> -h <yourdomain> -s simon-html
   ```
+  ⚠ Make sure you run `deploy.sh` from the same directory the script is located in.
 - Update your `simon-html` repository README.md to record and reflect on what you learned.
 - When you have completed your version. Do a final push of your code and deploy to your production environment using the `deploy.sh` script.
 - Make sure your project is visible from your production environment (e.g. https://simon-html.yourdomain).
