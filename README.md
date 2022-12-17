@@ -10,9 +10,9 @@ You can view this application running here: [Example Simon HTML](https://simon-h
 
 ## Study this code
 
-First, get familiar with what this code teaches.
+Get familiar with what the example code teaches.
 
-- Clone this repository to your development machine.
+- Clone the repository to your development environment.
 
   ```sh
   git clone https://github.com/webprogramming260/simon-html.git
@@ -24,22 +24,30 @@ First, get familiar with what this code teaches.
 
 ## Make your own version
 
-- Create a new GitHub repository named `simon-html`.
+Now it is time to start creating your own version of Simon. The main purpose of this work is to get familiar with building applications with applications using the technology discussed in the instruction. With that knowledge you can then create something original in your start up project. It is not important for you to spend time exploring alternative designs and architectures for the Simon project, although you are welcome to if you would like, you just want to understand the concepts and reproduce as reasonable copy of Simon. You will do all of your work in a single GitHub repository named `simon` that you add to as new technologies are introduced. When you are done your Git history should show the entire evolution of your work on your Simon project.
+
+- Create a new repository named `simon` in your GitHub account.
 - Clone the repository to your development environment.
-- In your `simon-html` directory create your own version of the project. Refer to the example class project repository if you get stuck.
-- Set the footer link to point to your code repository. (e.g. https://github.com/yourname/simon-html)
+- In your `simon` directory create your own version of the project. Refer to the example class project repository guidance. Remember that you do not need to recreate an original work. Just focus on learning the concepts that the example project provides. However, you will learn more if you type everything out, and not just copy and paste the code.
+- Set the footer link to point to your code repository. (e.g. https://github.com/youraccount/simon)
 - Periodically commit and push your code to your repository as you hit different milestones. (4 commits are required for full credit.)
-- Periodically deploy to your production environment using a copy of the `deploy.sh` script found in the [example class project](https://github.com/webprogramming260/simon-html/blob/main/deploy.sh). Take some time to understand how the script works. The script does three things. Deletes any previous deployment for simon-html, copies up all of the files found in the project directory, and makes sure Caddy is hosting the files under the `simon-html` subdomain of your domain.
+- Periodically deploy to your production environment using a copy of the `deploy.sh` script found in the [example class project](https://github.com/webprogramming260/simon-html/blob/main/deploy.sh). Take some time to understand how the script works. The script does three things. Deletes any previous deployment for simon, copies up all of the files found in the project directory, and makes sure Caddy is hosting the files under the `simon` subdomain of your domain.
 
   ```sh
-  ./deploy.sh -k <yourpemkey> -h <yourdomain> -s simon-html
+  ./deploy.sh -k <yourpemkey> -h <yourdomain> -s simon
+  ```
+
+  For example,
+
+  ```sh
+  ./deploy.sh -k ~/keys/production.pem -h yourdomain.click -s simon
   ```
 
   ⚠ Make sure you run `deploy.sh` from the console in your project directory.
 
-- Update your `simon-html` repository README.md to record and reflect on what you learned.
+- Update your `simon` repository README.md to record and reflect on what you learned.
 - When you have completed your version. Do a final push of your code and deploy to your production environment using the `deploy.sh` script.
-- Make sure your project is visible from your production environment (e.g. https://simon-html.yourdomain).
+- Make sure your project is visible from your production environment (e.g. https://simon.yourdomain.click).
 - Submit the URL to your production environment for grading using the Canvas assignment page.
 
 ## Grading Rubric
