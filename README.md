@@ -19,19 +19,19 @@ Get familiar with what the example code teaches.
   ```
 
 - Review the code and get comfortable with everything it represents.
-- View the code in your browser by hosting it using the VSCode LiveServer extension.
+- View the code in your browser by hosting it using the VS Code Live Server extension.
 - Make modifications to the code as desired. Experiment and see what happens.
 
 ## Make your own version
 
-Now it is time to start creating your own version of Simon. The main purpose of this work is to get familiar with building applications with applications using the technology discussed in the instruction. With that knowledge you can then create something original in your start up project. It is not important for you to spend time exploring alternative designs and architectures for the Simon project, although you are welcome to if you would like, you just want to understand the concepts and reproduce as reasonable copy of Simon. You will do all of your work in a single GitHub repository named `simon` that you add to as new technologies are introduced. When you are done your Git history should show the entire evolution of your work on your Simon project.
+Now it is time to start creating your own version of Simon. The main purpose of this work is to get familiar with building applications using the technology discussed in the course. With that knowledge you can then create something original in your start up project. It is not important for you to spend time exploring alternative designs and architectures for the Simon project, although you are welcome to do so if you would like. The only requirement is that you understand the concepts and reproduce as reasonable copy of Simon. You will do all of your work in a single GitHub repository named `simon`. With each technology you will add more code to your Simon repository. When you are done your Git history should show the entire evolution of your work on your Simon application.
 
 - Create a new repository named `simon` in your GitHub account.
 - Clone the repository to your development environment.
-- In your `simon` directory create your own version of the project. Refer to the example class project repository guidance. Remember that you do not need to recreate an original work. Just focus on learning the concepts that the example project provides. However, you will learn more if you type everything out, and not just copy and paste the code.
+- In your `simon` directory create your own version of the application. Refer to the example class project repository for guidance. Remember that you do not need to recreate an original work. Just focus on learning the concepts that the example project provides. However, you will learn more if you type everything out, and not just copy and paste the code.
 - Set the footer link to point to your code repository. (e.g. https://github.com/youraccount/simon)
 - Periodically commit and push your code to your repository as you hit different milestones. (4 commits are required for full credit.)
-- Periodically deploy to your production environment using a copy of the `deployFiles.sh` script found in the [example class project](https://github.com/webprogramming260/simon-html/blob/main/deployFiles.sh). Take some time to understand how the script works. The script does three things. Deletes any previous deployment for simon, copies up all of the files found in the project directory, and makes sure Caddy is hosting the files under the `simon` subdomain of your domain.
+- Periodically deploy to your production environment using a copy of the `deployFiles.sh` script found in the [example class project](https://github.com/webprogramming260/simon-html/blob/main/deployFiles.sh). Take some time to understand how the script works. The script does three things. Deletes any previous deployment for simon, copies up all of the files found in the project directory, and makes sure Caddy is hosting the files under the `simon` subdomain of your domain (e.g. simon.yourdomain.click).
 
   ```sh
   ./deployFiles.sh -k <yourpemkey> -h <yourdomain> -s simon
