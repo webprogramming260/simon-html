@@ -28,10 +28,10 @@ Now it is time to start creating your own version of Simon. The main purpose of 
 
 - Create a new repository named `simon` in your GitHub account.
 - Clone the repository to your development environment.
-- In your `simon` directory create your own version of the application. Refer to the example class project repository for guidance. Remember that you do not create an originaloriginal work. Just focus on learning the concepts that the example project provides. However, you will learn more if you type everything out, and not just copy and paste the code.
+- In your `simon` directory create your own version of the application. Refer to the example class application repository for guidance. Remember that you do not create an originaloriginal work. Just focus on learning the concepts that the example project provides. However, you will learn more if you type everything out, and not just copy and paste the code.
 - Set the footer link to point to your code repository. (e.g. https://github.com/youraccount/simon)
 - Periodically commit and push your code to your repository as you hit different milestones. (4 commits are required for full credit.)
-- Periodically deploy to your production environment using a copy of the `deployFiles.sh` script found in the [example class project](https://github.com/webprogramming260/simon-html/blob/main/deployFiles.sh). Take some time to understand how the script works. The script does three things. Deletes any previous deployment for simon, copies up all of the files found in the project directory, and makes sure Caddy is hosting the files under the `simon` subdomain of your domain (e.g. simon.yourdomain.click).
+- Periodically deploy to your production environment using a copy of the `deployFiles.sh` script found in the [example class application](https://github.com/webprogramming260/simon-html/blob/main/deployFiles.sh). Take some time to understand how the script works. The script does three things. Deletes any previous deployment for simon, copies up all of the files found in the project directory, and makes sure Caddy is hosting the files under the `simon` subdomain of your domain (e.g. simon.yourdomain.click).
 
   ```sh
   ./deployFiles.sh -k <yourpemkey> -h <yourdomain> -s simon
